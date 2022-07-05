@@ -1,5 +1,9 @@
+import { MuiTypography } from "./components/MuiTypography";
+
 function App() {
-    return <div>Learn Material UI</div>
+    return (<div>
+        <MuiTypography />
+    </div>)
 }
 
 export default App;
