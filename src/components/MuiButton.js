@@ -111,11 +111,17 @@ export const MuiButton = () => {
         </IconButton>
       </Stack>
 
-      <Stack>
-        <ButtonGroup variant="contained">
-            <Button>Left</Button>
-            <Button>Center</Button>
-            <Button>Right</Button>
+      <Stack direction="row">
+        <ButtonGroup
+          variant="contained"
+          size="small"
+          orientation="vertical"
+          color="secondary"
+          aria-label="alignment button group"
+        >
+          <Button onClick={() => alert("Left Button Clicked!")}>Left</Button>
+          <Button>Center</Button>
+          <Button>Right</Button>
         </ButtonGroup>
       </Stack>
     </Stack>
